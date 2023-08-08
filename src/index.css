@@ -115,7 +115,7 @@ input {
   background-color: rgb(247, 217, 180);
   display: grid;
   grid-template-columns: 2fr 1fr;
-  width: calc((47.5 - 1.25vw) * vw);
+  width: calc((47.5 - 1.25 * vw) * vw);
   border-radius: 10px;
   gap: 20px;
   grid-column: 2;
