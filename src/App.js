@@ -96,11 +96,22 @@ function App() {
           </Button>
         </div>
       </div>
-      <FromSplitBill
-        selectedfriend={selectedfriend}
-        className={selectedfriend ? "" : "opacity"}
-        changebalance={changebalance}
-      />
+      {selectedfriend ? (
+        <FromSplitBill
+          selectedfriend={selectedfriend}
+          className=""
+          changebalance={changebalance}
+          key={selectedfriend.id}
+        />
+      ) : (
+        <FromSplitBill
+          selectedfriend={selectedfriend}
+          className="opacity"
+          changebalance={changebalance}
+          key={selectedfriend.id}
+        />
+      )}
+
       <ToastContainer />
     </div>
   );
