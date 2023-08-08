@@ -39,7 +39,8 @@ input {
   grid-template-columns: auto 1fr auto;
   align-items: center;
   gap: 10px;
-  width: calc((42.5 - 1.25 * vw) * vw);
+  /* postcss-calc: off */
+  width: calc((42.5 - 1.25 * 1vw) * 1vw);
 }
 .friend img {
   border-radius: 50%;
@@ -70,7 +71,8 @@ input {
 .friendform {
   display: grid;
   grid-template-columns: auto auto;
-  width: calc((42.5 - 1.25 * vw) * vw);
+  /* postcss-calc: off */
+  width: calc((42.5 - 1.25 * 1vw) * 1vw);
   gap: 20px;
   padding: 20px;
   background-color: rgb(247, 217, 180);
@@ -102,7 +104,8 @@ input {
 }
 /*last button*/
 .lastbtn {
-  width: calc((42.5 - 1.25 * vw) * vw);
+  /* postcss-calc: off */
+  width: calc((42.5 - 1.25 * 1vw) * 1vw);
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -115,7 +118,8 @@ input {
   background-color: rgb(247, 217, 180);
   display: grid;
   grid-template-columns: 2fr 1fr;
-  width: calc((47.5 - 1.25 * vw) * vw);
+  /* postcss-calc: off */
+  width: calc((47.5 - 1.25 * 1vw) * 1vw);
   border-radius: 10px;
   gap: 20px;
   grid-column: 2;
