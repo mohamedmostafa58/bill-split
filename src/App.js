@@ -108,7 +108,7 @@ function App() {
           selectedfriend={selectedfriend}
           className="opacity"
           changebalance={changebalance}
-          key={selectedfriend.id}
+          key={0}
         />
       )}
 
