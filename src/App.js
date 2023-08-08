@@ -99,7 +99,6 @@ function App() {
       {selectedfriend ? (
         <FromSplitBill
           selectedfriend={selectedfriend}
-          className=""
           changebalance={changebalance}
           key={selectedfriend.id}
         />
